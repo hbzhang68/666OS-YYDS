@@ -182,6 +182,7 @@ proxy-groups:
   - {name: NetFlix, <<: *SelectProxy, icon: https://git.imee.me/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Netflix.png}
   - {name: TikTok, <<: *SelectProxy, icon: https://git.imee.me/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/TikTok.png}
   - {name: Disney, <<: *SelectProxy, icon: https://git.imee.me/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Disney.png}
+  - {name: PrimeVideo, <<: *SelectProxy, icon: https://ghgo.xyz/https://raw.githubusercontent.com/starfifa/ios_rule_script/refs/heads/master/icon/color/primevideo.png}
   - {name: Spotify, <<: *SelectProxy, icon: https://git.imee.me/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Spotify.png}
   - {name: HBO, <<: *SelectProxy, icon: https://git.imee.me/https://raw.githubusercontent.com/Orz-3/mini/master/Color/HBO.png}
   - {name: 国际新闻, <<: *SelectProxy, icon: https://git.imee.me/https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple_News.png}
@@ -280,6 +281,9 @@ rule-providers:
   disney:
     <<: *DomainMrs
     url: https://git.imee.me/https://github.com/666OS/YYDS/raw/main/mihomo/rules/disney.mrs
+  primevideo:
+    <<: *ClassicalYaml
+    url: https://ghgo.xyz/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AmazonPrimeVideo/AmazonPrimeVideo.yaml    
   hbo:
     <<: *DomainMrs
     url: https://git.imee.me/https://github.com/666OS/YYDS/raw/main/mihomo/rules/hbo.mrs
@@ -396,6 +400,7 @@ rules:
   - RULE-SET,spotify,Spotify
   - RULE-SET,netflix,NetFlix
   - RULE-SET,disney,Disney
+  - RULE-SET,primevideo,PrimeVideo
   - RULE-SET,hbo,HBO
   - RULE-SET,tiktok,TikTok
   - RULE-SET,github,Github
