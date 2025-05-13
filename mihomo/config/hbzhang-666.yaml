@@ -207,6 +207,7 @@ rule-providers:
   primevideo:                {<<: *ClassicalYaml, url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AmazonPrimeVideo/AmazonPrimeVideo.yaml}
   emby:                      {<<: *ClassicalText, url: https://git.imee.me/https://github.com/666OS/YYDS/raw/main/mihomo/rules/emby.list}
   taiwanstreaming:           {<<: *ClassicalText, url: https://git.imee.me/https://github.com/HotKids/Rules/blob/master/Surge/RULE-SET/Streaming_TW.list}
+  hamivideo:                 {<<: *DomainMrs, url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/HamiVideo/HamiVideo.yaml}
   openai:                    {<<: *DomainMrs, url: https://git.imee.me/https://github.com/666OS/YYDS/raw/main/mihomo/rules/openai.mrs}
   telegram:                  {<<: *DomainMrs, url: https://git.imee.me/https://github.com/666OS/YYDS/raw/main/mihomo/rules/telegram.mrs}
   twitter:                   {<<: *DomainMrs, url: https://git.imee.me/https://github.com/666OS/YYDS/raw/main/mihomo/rules/twitter.mrs}
@@ -270,6 +271,7 @@ rules:
   - RULE-SET,disney,DisneyPlus
   - RULE-SET,hbo,MAX
   - RULE-SET,taiwanstreaming,台湾串流平台
+  - RULE-SET,hamivideo,台湾串流平台
   - RULE-SET,tiktok,Tiktok
   - RULE-SET,github,Github
   - RULE-SET,onedrive,微软服务
