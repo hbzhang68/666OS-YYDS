@@ -208,7 +208,7 @@ rule-providers:
   hamivideo:                 {<<: *ClassicalYaml, url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/HamiVideo/HamiVideo.yaml}
   friday:                    {<<: *ClassicalYaml, url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/friDay/friDay.yaml}
   kktv:                      {<<: *ClassicalYaml, url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/KKTV/KKTV.yaml}
-  myvideo:                   {<<: *ClassicalYaml, url: https://github.com/HotKids/Rules/blob/master/Clash/RuleSet/myVideo.yaml}
+  myvideo:                   {<<: *ClassicalText, url: https://github.com/HotKids/Rules/blob/master/Surge/RULE-SET/myVideo.list}
   emby:                      {<<: *ClassicalText, url: https://git.imee.me/https://github.com/666OS/YYDS/raw/main/mihomo/rules/emby.list}  
   openai:                    {<<: *DomainMrs, url: https://git.imee.me/https://github.com/666OS/YYDS/raw/main/mihomo/rules/openai.mrs}
   telegram:                  {<<: *DomainMrs, url: https://git.imee.me/https://github.com/666OS/YYDS/raw/main/mihomo/rules/telegram.mrs}
