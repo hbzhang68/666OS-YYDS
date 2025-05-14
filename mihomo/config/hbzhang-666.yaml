@@ -137,8 +137,6 @@ proxy-groups:
   - {name: PrimeVideo,  <<: *SelectProxy, icon: https://git.imee.me/https://github.com/Koolson/Qure/raw/master/IconSet/Color/Prime_Video.png}
   - {name: DisneyPlus,  <<: *SelectProxy, icon: https://git.imee.me/https://github.com/Koolson/Qure/raw/master/IconSet/Color/Disney+.png}
   - {name: MAX,  <<: *SelectProxy, icon: https://git.imee.me/https://github.com/Koolson/Qure/raw/master/IconSet/Color/HBO.png}
-  - {name: friDay,  <<: *SelectProxy, icon: https://git.imee.me/https://github.com/Koolson/Qure/blob/master/IconSet/friDay.png}
-  - {name: KKTV,  <<: *SelectProxy, icon: https://git.imee.me/https://github.com/Koolson/Qure/blob/master/IconSet/KKTV.png}
   - {name: 台湾串流平台,  <<: *SelectProxy, icon: https://git.imee.me/https://github.com/Koolson/Qure/raw/master/IconSet/Color/DomesticMedia.png}
   - {name: Telegram, <<: *SelectProxy, icon: https://git.imee.me/https://github.com/Koolson/Qure/raw/master/IconSet/Color/Telegram_X.png}
   - {name: Twitter,  <<: *SelectProxy, icon: https://git.imee.me/https://github.com/Koolson/Qure/raw/master/IconSet/Color/X.png}
@@ -276,8 +274,8 @@ rules:
   - RULE-SET,hbo,MAX
   - RULE-SET,myvideo,台湾串流平台
   - RULE-SET,hamivideo,台湾串流平台
-  - RULE-SET,friday,friDay
-  - RULE-SET,kktv,KKTV  
+  - RULE-SET,friday,台湾串流平台
+  - RULE-SET,kktv,台湾串流平台 
   - RULE-SET,tiktok,Tiktok
   - RULE-SET,github,Github
   - RULE-SET,onedrive,微软服务
